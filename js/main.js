@@ -76,7 +76,7 @@ btnMenu.addEventListener('click', () => {
     if(mobileMenu.classList.contains('mobile-menu_open')) {
         header.style.cssText = "background: transparent; border-bottom: 1px solid rgba(255, 255, 255, 0.2);";
         logo.style.cssText = "background-image: url('../img/logo-white.svg');";
-        btnMenu.style.cssText = "background-image: url('../img/icon-close1.svg');";
+        btnMenu.style.cssText = "background-image: url('../img/clo.svg');";
         body.style.cssText = "overflow: hidden;"
     } else {
         header.style.cssText = "";
