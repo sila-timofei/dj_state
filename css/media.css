@@ -358,17 +358,31 @@
         white-space: normal;
     }
 
-    .about__main-title {
-        margin-bottom: 14px;
+
+    .about {
+        padding: 0;
     }
 
     .about__body {
         padding: 32px 16px 16px 16px;
     }
 
-    .gallery__main-title {
+    .about__main-title {
+        margin-bottom: 14px;
+    }
+
+
+    .gallery {
+        background-color: #DCF3D8;
+    }
+
+    .gallery__main-title, .reviews__main-title {
         text-align: center;
         margin-bottom: 30px;
+    }
+
+    .reviews__main-title {
+        width: 100%;
     }
 
     .gallery__photo {
@@ -376,6 +390,15 @@
         margin-bottom: 16px;
     }
 
+    .gallery__pagination {
+        margin-bottom: 16px;
+    }
+
+
+    .footer {
+        padding: 0;
+        margin-bottom: 0;
+    }
 
     .footer__body {
         padding: 32px 16px;
@@ -385,8 +408,6 @@
         padding-left: 14px;
         margin-left: 14px;
     }
-
-
 }
 
     
