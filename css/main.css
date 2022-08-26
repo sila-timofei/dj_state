@@ -2,6 +2,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.main-title {
+    display: none;
+}
 
 .modal-reviews {
     position: fixed;

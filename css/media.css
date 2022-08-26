@@ -116,8 +116,7 @@
         background: rgba(0, 0, 0, 0.9);
         -webkit-backdrop-filter: blur(24px);
         backdrop-filter: blur(24px);
-        padding-top: 79px;
-        padding-bottom: 40px;
+        padding: 79px 40px 40px 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -146,6 +145,7 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 24px;
+        width: 400px;
     }
 
     .mobile-menu__social {
@@ -156,7 +156,7 @@
 
     .nav-menu__item {
         margin: 0;
-        width: 400px;
+        width: 100%;
     }
 
     .nav-item__link {
@@ -284,6 +284,11 @@
         margin-bottom: 16px;
     }
 
+    .about__logo-school {
+        margin-right: 14px;
+    }
+
+
     .gallery {
         padding-top: 60px;
     }
@@ -303,17 +308,85 @@
 
     .reviews__card {
         width: 400px;
+        margin-bottom: 16px;
     }
 
     .modal-reviews_open {
         padding-top: 0;
     }
+
+    .modal-reviews__text-reviews {
+        padding: 16px;
+    }
+
+    .modal-reviews__cover {
+        height: 450px;
+    }
+
+    .modal-reviews__btn-back {
+        top: 16px;
+        left: 16px;
+    }
 }
 
 @media screen and (max-width:500px) {
-    .header__link-logo {
-        margin-left: 50px;
+    .mobile-menu__social, .nav-menu {
+        width: 100%;
     }
+
+    .header__link-logo, .first-screen__title, .title {
+        display: none;
+    }
+
+    .first-screen__main-title {
+        margin-bottom: 14px;
+    }
+
+    .main-title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 54px;
+        display: inline-block;
+    }
+
+    .first-screen__flex-item {
+        padding-top: 40px;
+    }
+
+    .first-screen__subtitle, .first-screen__photo {
+        margin-bottom: 40px;
+        white-space: normal;
+    }
+
+    .about__main-title {
+        margin-bottom: 14px;
+    }
+
+    .about__body {
+        padding: 32px 16px 16px 16px;
+    }
+
+    .gallery__main-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .gallery__photo {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+
+    .footer__body {
+        padding: 32px 16px;
+    }
+
+    .footer__dev-text {
+        padding-left: 14px;
+        margin-left: 14px;
+    }
+
+
 }
 
     
