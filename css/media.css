@@ -325,8 +325,7 @@
     }
 
     .modal-reviews__btn-back {
-        top: 16px;
-        left: 16px;
+        padding: 16px;
     }
 }
 

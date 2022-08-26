@@ -1,7 +1,7 @@
 //modal
 let modal = document.querySelectorAll('.modal-reviews');
 let btnOpenModal = document.querySelectorAll('.reviews__button-read-more');
-let btnCloseModal = document.querySelectorAll('.modal-reviews__btn-back');
+let btnCloseModal = document.querySelectorAll('.modal-reviews__btn-back-body');
 let body = document.querySelector('.document');
 
 btnOpenModal.forEach((i, index) => {
