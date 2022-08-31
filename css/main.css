@@ -47,7 +47,12 @@ body {
 }
 
 .modal-reviews__cover3 {
-    background-image: url('../img/photo-newlyweds3.jpg');
+    background-image: url('../img/cover-card3.jpg');
+}
+
+.modal-reviews__cover2 {
+    background-image: url('../img/cover-card2.jpg');
+    background-size: auto;
 }
 
 .modal-reviews__cover-blackout {
